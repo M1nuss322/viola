@@ -1,0 +1,67 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1140px;
+	margin: 0 auto;
+	background-color: lightpink;
+}
+.viola {
+	text-align: center;
+	max-width: 100%;
+	color: hotpink;
+	font-family: "Gotham";
+	font-weight: 600;
+	font-size: 55px;
+	margin: 0px 0px 50px 0px;
+	padding: 70px 0px 0px 0px;
+}
+.image {
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+}
